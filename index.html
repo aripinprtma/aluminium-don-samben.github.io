@@ -16,7 +16,9 @@
     />
   </head>
   <body>
-    <nav class="bg-white border-gray-200 dark:bg-gray-900 p-5">
+    <nav
+      class="bg-white border-gray-200 dark:bg-gray-800 p-5 sticky top-0 z-50"
+    >
       <div
         class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
       >
@@ -60,40 +62,401 @@
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul
-            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-800 dark:border-gray-700"
           >
             <li>
               <a
                 href="#"
                 class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >About</a
+                >Home</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#services"
                 class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                 >Services</a
               >
             </li>
             <li>
               <a
-                href="#"
+                href="#review"
                 class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Pricing</a
-              >
-            </li>
-            <li>
-              <a
-                href="#"
-                class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-                >Contact</a
+                >Review</a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
+
+    <section class="bg-white dark:bg-gray-900">
+      <div
+        class="grid max-w-screen-xl px-4 py-8 mx-auto gap-8 lg:py-16 lg:grid-cols-12"
+      >
+        <!-- Gambar: muncul di atas pada mobile -->
+        <div
+          class="lg:col-span-5 flex justify-center lg:justify-end order-1 lg:order-2"
+        >
+          <img
+            src="assets/images/logo.don-samben.jpg"
+            alt="mockup"
+            class="w-full max-w-xs md:max-w-sm lg:max-w-md rounded"
+          />
+        </div>
+
+        <!-- Konten Teks -->
+        <div
+          class="place-self-center lg:col-span-7 order-2 lg:order-1 text-center lg:text-left"
+        >
+          <h1
+            class="mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
+          >
+            DON SAMBÉN
+          </h1>
+          <p
+            class="mb-6 font-light text-gray-500 md:text-lg lg:text-xl dark:text-gray-400"
+          >
+            Aluminium Welding & Casting Specialist.
+          </p>
+          <hr
+            class="my-4 border-gray-200 dark:border-gray-700 w-32 mx-auto lg:mx-0"
+          />
+          <p
+            class="mb-6 font-light text-gray-500 md:text-lg lg:text-xl dark:text-gray-400"
+          >
+            Spesialis Pengelasan, Pengecoran, Peleburan, dan Pencetakan
+            Aluminium.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="bg-white dark:bg-gray-900">
+      <div
+        class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12 sm:grid-cols-1 md:grid-cols-2"
+      >
+        <div class="mr-auto place-self-center lg:col-span-7">
+          <h1
+            class="max-w-4xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white"
+          >
+            DON SAMBÉN
+          </h1>
+          <p
+            class="max-w-4xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          >
+            Aluminium Welding & Casting Specialist.
+          </p>
+          <hr class="my-4 border-gray-200 dark:border-gray-700 w-160 mx-auto" />
+          <p
+            class="max-w-4xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400"
+          >
+            Spesialis Pengelasan, Pengecoran, Peleburan, dan Pencetakan
+            Aluminium.
+          </p>
+        </div>
+        <div class="hidden lg:mt-0 lg:col-span-5 lg:flex lg:justify-self-end sm:col-span-1 md:col-span-2">
+          <img src="assets/images/logo.don-samben.jpg" alt="mockup" />
+        </div>
+      </div>
+    </section> -->
+
+    <section class="bg-gray-50 py-8 antialiased dark:bg-gray-900 md:py-16" id="services">
+      <div class="mx-auto max-w-screen-xl px-4 2xl:px-0">
+        <h2
+          class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center"
+        >
+          Services
+        </h2>
+        <hr class="my-4 border-gray-200 dark:border-gray-700 w-60 mx-auto" />
+
+        <div class="grid gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3">
+          <a
+            href="#"
+            class="flex items-center rounded-lg border border-gray-200 bg-white px-4 py-2 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
+            <svg
+              class="me-2 h-4 w-4 shrink-0 text-gray-900 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7.58209 8.96025 9.8136 11.1917l-1.61782 1.6178c-1.08305-.1811-2.23623.1454-3.07364.9828-1.1208 1.1208-1.32697 2.8069-.62368 4.1363.14842.2806.42122.474.73509.5213.06726.0101.1347.0133.20136.0098-.00351.0666-.00036.1341.00977.2013.04724.3139.24069.5867.52125.7351 1.32944.7033 3.01552.4971 4.13627-.6237.8375-.8374 1.1639-1.9906.9829-3.0736l4.8107-4.8108c1.0831.1811 2.2363-.1454 3.0737-.9828 1.1208-1.1208 1.3269-2.80688.6237-4.13632-.1485-.28056-.4213-.474-.7351-.52125-.0673-.01012-.1347-.01327-.2014-.00977.0035-.06666.0004-.13409-.0098-.20136-.0472-.31386-.2406-.58666-.5212-.73508-1.3294-.70329-3.0155-.49713-4.1363.62367-.8374.83741-1.1639 1.9906-.9828 3.07365l-1.7788 1.77875-2.23152-2.23148-1.41419 1.41424Zm1.31056-3.1394c-.04235-.32684-.24303-.61183-.53647-.76186l-1.98183-1.0133c-.38619-.19746-.85564-.12345-1.16234.18326l-.86321.8632c-.3067.3067-.38072.77616-.18326 1.16235l1.0133 1.98182c.15004.29345.43503.49412.76187.53647l1.1127.14418c.3076.03985.61628-.06528.8356-.28461l.86321-.8632c.21932-.21932.32446-.52801.2846-.83561l-.14417-1.1127ZM19.4448 16.4052l-3.1186-3.1187c-.7811-.781-2.0474-.781-2.8285 0l-.1719.172c-.7811.781-.7811 2.0474 0 2.8284l3.1186 3.1187c.7811.781 2.0474.781 2.8285 0l.1719-.172c.7811-.781.7811-2.0474 0-2.8284Z"
+              />
+            </svg>
+
+            <span class="text-sm font-medium text-gray-900 dark:text-white"
+              >Mesin Otomotif</span
+            >
+          </a>
+          <a
+            href="#"
+            class="flex items-center rounded-lg border border-gray-200 bg-white px-4 py-2 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
+            <svg
+              class="me-2 h-4 w-4 shrink-0 text-gray-900 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7.58209 8.96025 9.8136 11.1917l-1.61782 1.6178c-1.08305-.1811-2.23623.1454-3.07364.9828-1.1208 1.1208-1.32697 2.8069-.62368 4.1363.14842.2806.42122.474.73509.5213.06726.0101.1347.0133.20136.0098-.00351.0666-.00036.1341.00977.2013.04724.3139.24069.5867.52125.7351 1.32944.7033 3.01552.4971 4.13627-.6237.8375-.8374 1.1639-1.9906.9829-3.0736l4.8107-4.8108c1.0831.1811 2.2363-.1454 3.0737-.9828 1.1208-1.1208 1.3269-2.80688.6237-4.13632-.1485-.28056-.4213-.474-.7351-.52125-.0673-.01012-.1347-.01327-.2014-.00977.0035-.06666.0004-.13409-.0098-.20136-.0472-.31386-.2406-.58666-.5212-.73508-1.3294-.70329-3.0155-.49713-4.1363.62367-.8374.83741-1.1639 1.9906-.9828 3.07365l-1.7788 1.77875-2.23152-2.23148-1.41419 1.41424Zm1.31056-3.1394c-.04235-.32684-.24303-.61183-.53647-.76186l-1.98183-1.0133c-.38619-.19746-.85564-.12345-1.16234.18326l-.86321.8632c-.3067.3067-.38072.77616-.18326 1.16235l1.0133 1.98182c.15004.29345.43503.49412.76187.53647l1.1127.14418c.3076.03985.61628-.06528.8356-.28461l.86321-.8632c.21932-.21932.32446-.52801.2846-.83561l-.14417-1.1127ZM19.4448 16.4052l-3.1186-3.1187c-.7811-.781-2.0474-.781-2.8285 0l-.1719.172c-.7811.781-.7811 2.0474 0 2.8284l3.1186 3.1187c.7811.781 2.0474.781 2.8285 0l.1719-.172c.7811-.781.7811-2.0474 0-2.8284Z"
+              />
+            </svg>
+            <span class="text-sm font-medium text-gray-900 dark:text-white"
+              >Alat Teknik</span
+            >
+          </a>
+          <a
+            href="#"
+            class="flex items-center rounded-lg border border-gray-200 bg-white px-4 py-2 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
+            <svg
+              class="me-2 h-4 w-4 shrink-0 text-gray-900 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7.58209 8.96025 9.8136 11.1917l-1.61782 1.6178c-1.08305-.1811-2.23623.1454-3.07364.9828-1.1208 1.1208-1.32697 2.8069-.62368 4.1363.14842.2806.42122.474.73509.5213.06726.0101.1347.0133.20136.0098-.00351.0666-.00036.1341.00977.2013.04724.3139.24069.5867.52125.7351 1.32944.7033 3.01552.4971 4.13627-.6237.8375-.8374 1.1639-1.9906.9829-3.0736l4.8107-4.8108c1.0831.1811 2.2363-.1454 3.0737-.9828 1.1208-1.1208 1.3269-2.80688.6237-4.13632-.1485-.28056-.4213-.474-.7351-.52125-.0673-.01012-.1347-.01327-.2014-.00977.0035-.06666.0004-.13409-.0098-.20136-.0472-.31386-.2406-.58666-.5212-.73508-1.3294-.70329-3.0155-.49713-4.1363.62367-.8374.83741-1.1639 1.9906-.9828 3.07365l-1.7788 1.77875-2.23152-2.23148-1.41419 1.41424Zm1.31056-3.1394c-.04235-.32684-.24303-.61183-.53647-.76186l-1.98183-1.0133c-.38619-.19746-.85564-.12345-1.16234.18326l-.86321.8632c-.3067.3067-.38072.77616-.18326 1.16235l1.0133 1.98182c.15004.29345.43503.49412.76187.53647l1.1127.14418c.3076.03985.61628-.06528.8356-.28461l.86321-.8632c.21932-.21932.32446-.52801.2846-.83561l-.14417-1.1127ZM19.4448 16.4052l-3.1186-3.1187c-.7811-.781-2.0474-.781-2.8285 0l-.1719.172c-.7811.781-.7811 2.0474 0 2.8284l3.1186 3.1187c.7811.781 2.0474.781 2.8285 0l.1719-.172c.7811-.781.7811-2.0474 0-2.8284Z"
+              />
+            </svg>
+            <span class="text-sm font-medium text-gray-900 dark:text-white"
+              >Mesin Pabrik</span
+            >
+          </a>
+          <a
+            href="#"
+            class="flex items-center rounded-lg border border-gray-200 bg-white px-4 py-2 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
+            <svg
+              class="me-2 h-4 w-4 shrink-0 text-gray-900 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7.58209 8.96025 9.8136 11.1917l-1.61782 1.6178c-1.08305-.1811-2.23623.1454-3.07364.9828-1.1208 1.1208-1.32697 2.8069-.62368 4.1363.14842.2806.42122.474.73509.5213.06726.0101.1347.0133.20136.0098-.00351.0666-.00036.1341.00977.2013.04724.3139.24069.5867.52125.7351 1.32944.7033 3.01552.4971 4.13627-.6237.8375-.8374 1.1639-1.9906.9829-3.0736l4.8107-4.8108c1.0831.1811 2.2363-.1454 3.0737-.9828 1.1208-1.1208 1.3269-2.80688.6237-4.13632-.1485-.28056-.4213-.474-.7351-.52125-.0673-.01012-.1347-.01327-.2014-.00977.0035-.06666.0004-.13409-.0098-.20136-.0472-.31386-.2406-.58666-.5212-.73508-1.3294-.70329-3.0155-.49713-4.1363.62367-.8374.83741-1.1639 1.9906-.9828 3.07365l-1.7788 1.77875-2.23152-2.23148-1.41419 1.41424Zm1.31056-3.1394c-.04235-.32684-.24303-.61183-.53647-.76186l-1.98183-1.0133c-.38619-.19746-.85564-.12345-1.16234.18326l-.86321.8632c-.3067.3067-.38072.77616-.18326 1.16235l1.0133 1.98182c.15004.29345.43503.49412.76187.53647l1.1127.14418c.3076.03985.61628-.06528.8356-.28461l.86321-.8632c.21932-.21932.32446-.52801.2846-.83561l-.14417-1.1127ZM19.4448 16.4052l-3.1186-3.1187c-.7811-.781-2.0474-.781-2.8285 0l-.1719.172c-.7811.781-.7811 2.0474 0 2.8284l3.1186 3.1187c.7811.781 2.0474.781 2.8285 0l.1719-.172c.7811-.781.7811-2.0474 0-2.8284Z"
+              />
+            </svg>
+            <span class="text-sm font-medium text-gray-900 dark:text-white"
+              >Velg</span
+            >
+          </a>
+          <a
+            href="#"
+            class="flex items-center rounded-lg border border-gray-200 bg-white px-4 py-2 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
+            <svg
+              class="me-2 h-4 w-4 shrink-0 text-gray-900 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7.58209 8.96025 9.8136 11.1917l-1.61782 1.6178c-1.08305-.1811-2.23623.1454-3.07364.9828-1.1208 1.1208-1.32697 2.8069-.62368 4.1363.14842.2806.42122.474.73509.5213.06726.0101.1347.0133.20136.0098-.00351.0666-.00036.1341.00977.2013.04724.3139.24069.5867.52125.7351 1.32944.7033 3.01552.4971 4.13627-.6237.8375-.8374 1.1639-1.9906.9829-3.0736l4.8107-4.8108c1.0831.1811 2.2363-.1454 3.0737-.9828 1.1208-1.1208 1.3269-2.80688.6237-4.13632-.1485-.28056-.4213-.474-.7351-.52125-.0673-.01012-.1347-.01327-.2014-.00977.0035-.06666.0004-.13409-.0098-.20136-.0472-.31386-.2406-.58666-.5212-.73508-1.3294-.70329-3.0155-.49713-4.1363.62367-.8374.83741-1.1639 1.9906-.9828 3.07365l-1.7788 1.77875-2.23152-2.23148-1.41419 1.41424Zm1.31056-3.1394c-.04235-.32684-.24303-.61183-.53647-.76186l-1.98183-1.0133c-.38619-.19746-.85564-.12345-1.16234.18326l-.86321.8632c-.3067.3067-.38072.77616-.18326 1.16235l1.0133 1.98182c.15004.29345.43503.49412.76187.53647l1.1127.14418c.3076.03985.61628-.06528.8356-.28461l.86321-.8632c.21932-.21932.32446-.52801.2846-.83561l-.14417-1.1127ZM19.4448 16.4052l-3.1186-3.1187c-.7811-.781-2.0474-.781-2.8285 0l-.1719.172c-.7811.781-.7811 2.0474 0 2.8284l3.1186 3.1187c.7811.781 2.0474.781 2.8285 0l.1719-.172c.7811-.781.7811-2.0474 0-2.8284Z"
+              />
+            </svg>
+            <span class="text-sm font-medium text-gray-900 dark:text-white"
+              >Konstruksi</span
+            >
+          </a>
+          <a
+            href="#"
+            class="flex items-center rounded-lg border border-gray-200 bg-white px-4 py-2 hover:bg-gray-50 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+          >
+            <svg
+              class="me-2 h-4 w-4 shrink-0 text-gray-900 dark:text-white"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              fill="none"
+              viewBox="0 0 24 24"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M7.58209 8.96025 9.8136 11.1917l-1.61782 1.6178c-1.08305-.1811-2.23623.1454-3.07364.9828-1.1208 1.1208-1.32697 2.8069-.62368 4.1363.14842.2806.42122.474.73509.5213.06726.0101.1347.0133.20136.0098-.00351.0666-.00036.1341.00977.2013.04724.3139.24069.5867.52125.7351 1.32944.7033 3.01552.4971 4.13627-.6237.8375-.8374 1.1639-1.9906.9829-3.0736l4.8107-4.8108c1.0831.1811 2.2363-.1454 3.0737-.9828 1.1208-1.1208 1.3269-2.80688.6237-4.13632-.1485-.28056-.4213-.474-.7351-.52125-.0673-.01012-.1347-.01327-.2014-.00977.0035-.06666.0004-.13409-.0098-.20136-.0472-.31386-.2406-.58666-.5212-.73508-1.3294-.70329-3.0155-.49713-4.1363.62367-.8374.83741-1.1639 1.9906-.9828 3.07365l-1.7788 1.77875-2.23152-2.23148-1.41419 1.41424Zm1.31056-3.1394c-.04235-.32684-.24303-.61183-.53647-.76186l-1.98183-1.0133c-.38619-.19746-.85564-.12345-1.16234.18326l-.86321.8632c-.3067.3067-.38072.77616-.18326 1.16235l1.0133 1.98182c.15004.29345.43503.49412.76187.53647l1.1127.14418c.3076.03985.61628-.06528.8356-.28461l.86321-.8632c.21932-.21932.32446-.52801.2846-.83561l-.14417-1.1127ZM19.4448 16.4052l-3.1186-3.1187c-.7811-.781-2.0474-.781-2.8285 0l-.1719.172c-.7811.781-.7811 2.0474 0 2.8284l3.1186 3.1187c.7811.781 2.0474.781 2.8285 0l.1719-.172c.7811-.781.7811-2.0474 0-2.8284Z"
+              />
+            </svg>
+            <span class="text-sm font-medium text-gray-900 dark:text-white"
+              >Custom</span
+            >
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-white dark:bg-gray-900" id="review">
+      <div class="max-w-screen-xl mx-auto px-4 py-12">
+        <h2
+          class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center"
+        >
+          Review
+        </h2>
+        <hr class="my-4 border-gray-200 dark:border-gray-700 w-60 mx-auto" />
+
+        <!-- Responsive Flex: Stacked on mobile, side by side on md+ -->
+        <div class="flex flex-col lg:flex-row gap-8 items-start mt-10">
+          <!-- IFRAME: full width on mobile, fixed on lg -->
+          <div class="w-full lg:w-1/2">
+            <div class="aspect-w-4 aspect-h-3">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22364.239107854486!2d110.47324075146355!3d-7.739197254422499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a5bcbfd6fbc61%3A0x5e564c3e2f600fb7!2sAluminium%20DON%20SAMB%C3%89N%20(Aluminium%20Welding%20%26%20Casting%20Specialist)!5e0!3m2!1sid!2sid!4v1752560583856!5m2!1sid!2sid"
+                width="100%"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+
+          <!-- Review Cards -->
+          <div class="w-full lg:w-1/2 sm:p-3">
+            <div class="grid gap-6 sm:grid-cols-2 lg:grid-cols-2">
+              <!-- Review 1 -->
+              <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow-md">
+                <div class="flex items-center gap-3 mb-3">
+                  <img
+                    class="w-10 h-10 rounded-full"
+                    src="https://lh3.googleusercontent.com/a-/ALV-UjW1228RTf-LEAEvDIK3WJKCkrsd75JD8js80Nroup3jmJlphSrO=w90-h90-p-rp-mo-br100"
+                    alt="User 1"
+                  />
+                  <div>
+                    <p class="font-semibold text-gray-900 dark:text-white">
+                      Rendy Rizaldy
+                    </p>
+                    <div class="text-yellow-400 text-sm">★★★★★</div>
+                  </div>
+                </div>
+                <p class="text-sm text-gray-600 dark:text-gray-300">
+                  Recomended banget pokoknya. Sangat puas dengan hasil yang
+                  dikerjakan mas Don. Pelayanan super ramah dan disambut hangat.
+                  Terima kasih mas Don 🙏
+                </p>
+              </div>
+
+              <!-- Review 2 -->
+              <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow-md">
+                <div class="flex items-center gap-3 mb-3">
+                  <img
+                    class="w-10 h-10 rounded-full"
+                    src="https://lh3.googleusercontent.com/a/ACg8ocLzKWQHQbySNWZmVD-hmKhU1Btfw3RUhgAjwNlktOIXALtu6w=w90-h90-p-rp-mo-br100"
+                    alt="User 2"
+                  />
+                  <div>
+                    <p class="font-semibold text-gray-900 dark:text-white">
+                      Firman Dharma Putra
+                    </p>
+                    <div class="text-yellow-400 text-sm">★★★★★</div>
+                  </div>
+                </div>
+                <p class="text-sm text-gray-600 dark:text-gray-300">
+                  Hasil pengerjaan bagus dan teliti. Pak Don sangat ramah dan
+                  enak diajak diskusi. Pelayanan luar biasa.
+                </p>
+              </div>
+
+              <!-- Review 3 -->
+              <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow-md">
+                <div class="flex items-center gap-3 mb-3">
+                  <img
+                    class="w-10 h-10 rounded-full"
+                    src="https://lh3.googleusercontent.com/a/ACg8ocK9djUBMx_FxYz7PSkqpn522RXyhaNXkampsyldoHLd18js_g=w90-h90-p-rp-mo-br100"
+                    alt="User 3"
+                  />
+                  <div>
+                    <p class="font-semibold text-gray-900 dark:text-white">
+                      Redmi Note4x
+                    </p>
+                    <div class="text-yellow-400 text-sm">★★★★★</div>
+                  </div>
+                </div>
+                <p class="text-sm text-gray-600 dark:text-gray-300">
+                  Terima kasih Pak Don, pengelasan silinder head rapi dan kuat.
+                  Cocok untuk modifikasi mesin!
+                </p>
+              </div>
+              <!-- Review 3 -->
+              <div class="bg-white dark:bg-gray-800 rounded-lg p-5 shadow-md">
+                <div class="flex items-center gap-3 mb-3">
+                  <img
+                    class="w-10 h-10 rounded-full"
+                    src="https://lh3.googleusercontent.com/a/ACg8ocJ35ElDBTvPeWOd1jNmlutSJhR8njbV6pGNQhtA3rolwm6nc4Y=w45-h45-p-rp-mo-br100"
+                    alt="User 3"
+                  />
+                  <div>
+                    <p class="font-semibold text-gray-900 dark:text-white">
+                      F for Febrii
+                    </p>
+                    <div class="text-yellow-400 text-sm">★★★★★</div>
+                  </div>
+                </div>
+                <p class="text-sm text-gray-600 dark:text-gray-300">
+                  bengkel las rekomended mengatasi velg retak atau pecah bisa
+                  kembali seperti semula pengerjaan bisa ditunggu walaupun sampe
+                  malem hasil bagus rapi pokoknya rekomen lah
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <a
+      href="https://wa.me/6281392290636"
+      target="_blank"
+      class="fixed bottom-5 right-5 bg-green-500 hover:bg-green-600 text-white px-4 py-3 rounded-full shadow-lg flex items-center space-x-2 z-50"
+    >
+      <!-- Icon WhatsApp SVG -->
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="h-6 w-6 fill-white"
+        viewBox="0 0 448 512"
+      >
+        <path
+          d="M380.9 97.1C339 55.2 283.1 32 224.3 32 100.3 32 1.6 144.8 0 256c-.2 39.8 10.3 78.8 29.7 113.3L0 480l114.3-30.1c32.4 17.7 68.8 26.9 105.5 26.9h.1c124 0 224.3-112.2 224.3-224.1.1-58.8-23.1-114.7-63.3-155.6zM224.2 426.6c-30.2 0-59.9-8.1-85.7-23.4l-6.1-3.6-67.7 17.8 18-66.1-4.4-6.8c-18.6-28.7-28.4-61.2-28.2-95.2.3-94.4 79.4-173.2 176.7-173.2 47.1 0 91.3 18.4 124.6 51.8s51.4 77.6 51.3 124.8c0 97.2-84.7 176.9-178.5 176.9zm101.7-138.3c-5.6-2.8-33.1-16.3-38.3-18.1-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18.1-17.5 21.8-3.2 3.7-6.5 4.2-12.1 1.4-33.1-16.5-54.8-29.4-76.6-66.5-5.8-10 5.8-9.3 16.5-30.9 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.3-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2s-9.7 1.4-14.7 6.9c-5.1 5.6-19.2 18.8-19.2 45.9s19.7 53.3 22.4 57c2.8 3.7 38.7 59.2 93.8 83.1 13.1 5.6 23.3 8.9 31.3 11.4 13.1 4.2 25.1 3.6 34.5 2.2 10.5-1.6 33.1-13.5 37.8-26.6 4.7-13.1 4.7-24.3 3.3-26.6-1.4-2.3-5.1-3.7-10.6-6.5z"
+        />
+      </svg>
+
+      <span>Chat WhatsApp</span>
+    </a>
   </body>
   <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
 </html>
